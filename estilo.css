@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.barra-topo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #2c3e50;
+}
+
+.barra-topo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.barra-topo li {
+    float: left;
+    margin-right: 25px;
+}
+
+.barra-topo a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.aviso {
+    position: relative;
+    padding: 15px 45px 15px 20px;
+    margin: 70px 20px 20px;
+    background-color: #f1c40f;
+}
+
+#fechar-aviso {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.mensagem {
+    color: #2c3e50;
+    font-weight: bold;
+    margin: 0;
+}
+
+main p {
+    line-height: 1.6;
+}
+
+/* Altura da barra com aprox 50px (padding 15+15 + pro texto uns 25) */
+main {
+    margin-top: 60px;
+    padding: 0 20px 40px;
+}
